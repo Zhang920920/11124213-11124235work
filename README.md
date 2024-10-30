@@ -27,6 +27,7 @@
 
 上圖總的來說共有六個類，其中分別是 `User`、`RegisteredUser`、`OrdinaryUser`、`LibraryManager`、`MailSystem`、`Library`。
 其中，`MailSystem` 是接口。`User` 類關聯 `RegisteredUser` 和 `OrdinaryUser` 類，同時這兩個類和 `User` 之間也存在聚合關係。`LibraryManager` 和 `OrdinaryUser` 都繼承自 `RegisteredUser` 類。`Library` 類依賴於 `RegisteredUser` 和 `OrdinaryUser` 類；`LibraryManager` 還實現了 `MailSystem` 接口，並且與 `Library` 之間存在組成關係，各個類都設置了一定的可見性，有的定義了一些操作方法。
+
 2.對象圖:
 # 圖
 ![](https://tinyurl.com/kc6xv2vp)
