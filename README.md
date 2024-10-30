@@ -6,7 +6,7 @@
 ## 實驗環境
 [PowerDesigner](https://so.csdn.net/so/search?q=UML%E5%BB%BA%E6%A8%A1&spm=1001.2101.3001.7020)
 ## 實驗任務
-針對`迷你`[圖書管理系統](https://gitcode.com/open-source-toolkit/ede4c/overview?utm_source=highlight_word_gitcode&word=%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F)的用例圖(圖一)，展開分析，完成類建模。
+針對迷你[圖書管理系統](https://gitcode.com/open-source-toolkit/ede4c/overview?utm_source=highlight_word_gitcode&word=%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F)的用例圖(圖一)，展開分析，完成類建模。
 # 圖
 圖一:迷你圖書管理系統用例圖
 ## 實驗步驟
