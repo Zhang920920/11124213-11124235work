@@ -7,9 +7,10 @@
 [PowerDesigner](https://so.csdn.net/so/search?q=UML%E5%BB%BA%E6%A8%A1&spm=1001.2101.3001.7020)
 ## 實驗任務
 針對迷你[圖書管理系統](https://gitcode.com/open-source-toolkit/ede4c/overview?utm_source=highlight_word_gitcode&word=%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F)的用例圖(圖一)，展開分析，完成類建模。
-# 圖
-圖一:迷你圖書管理系統用例圖
 ![](https://tinyurl.com/32vjen57)
+
+圖一:迷你圖書管理系統用例圖
+
 ## 實驗步驟
 分析實驗任務內容，並利用UML完成類的建模並生成對象，主要包括：
 ```
@@ -21,7 +22,6 @@
 ```
 ## 實驗過程
 1.完整的類圖:
-# 圖
 ![](https://tinyurl.com/bdh8jwnd)
 分析：
 
@@ -29,8 +29,9 @@
 其中，`MailSystem` 是接口。`User` 類關聯 `RegisteredUser` 和 `OrdinaryUser` 類，同時這兩個類和 `User` 之間也存在聚合關係。`LibraryManager` 和 `OrdinaryUser` 都繼承自 `RegisteredUser` 類。`Library` 類依賴於 `RegisteredUser` 和 `OrdinaryUser` 類；`LibraryManager` 還實現了 `MailSystem` 接口，並且與 `Library` 之間存在組成關係，各個類都設置了一定的可見性，有的定義了一些操作方法。
 
 2.對象圖:
-# 圖
+
 ![](https://tinyurl.com/kc6xv2vp)
+
 從上圖可以看出有三個對象。
 # 參考資料
 https://blog.csdn.net/guleilei0/article/details/124869507
